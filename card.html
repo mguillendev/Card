@@ -1,1 +1,74 @@
-Este es mi primer proyecto real desde cero sin ayuda
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        section {
+            width: 100%;
+            position: relative;
+            color: #154360;
+            font-size: 100%;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+        }    
+        .container {
+            width: 500px;
+            height: 500px;
+            background: lightskyblue;
+            border-radius: 5%; 
+            overflow: hidden;
+        }
+        .container img {
+            width: 100%;
+        }
+        .container h1 {
+            padding-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+        }
+        .container p {
+            padding: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+        }
+        .photor {
+            background: snow;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 250px;
+            left: 180px;
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+        
+        }
+        .photor img {
+            width: 90%;
+            height: 90%;
+            border-radius: 100%;
+        }
+      
+    </style>
+    <section>
+        <div class="container">
+            <img src="https://images.pexels.com/photos/1684166/pexels-photo-1684166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="top">
+            <h1>María Guillén</h1>
+            <p>Web developer</p>
+        </div>
+        <div class="photor">
+            <img src="https://i.imgur.com/NNb8ODE.jpg" alt="foto">
+        </div>
+    </section>
+    
+</body>
+
+</html>
